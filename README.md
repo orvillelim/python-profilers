@@ -9,6 +9,8 @@ A curated list of python open source profilers
 
 [SnakeViz](https://jiffyclub.github.io/snakeviz/) - SnakeViz is a browser based graphical viewer for the output of Python’s cProfile module and an alternative to using the standard library pstats module. It was originally inspired by RunSnakeRun. SnakeViz works on Python 3.7+. SnakeViz v2.1.2 and older are still likely to work on Python 2.7, but official support has been dropped now Python 2 is EOL.
 
+[py-spy](https://github.com/benfred/py-spy) - py-spy is a sampling profiler for Python programs. It lets you visualize what your Python program is spending time on without restarting the program or modifying the code in any way. py-spy is extremely low overhead: it is written in Rust for speed and doesn't run in the same process as the profiled Python program. This means py-spy is safe to use against production Python code.
+
 [tuna](https://github.com/nschloe/tuna) - tuna is a modern, lightweight Python profile viewer inspired by SnakeViz. It handles runtime and import profiles, has minimal dependencies, uses d3 and bootstrap, and avoids certain errors present in SnakeViz (see below) and is faster, too.
 
 [gprof2dot](https://github.com/jrfonseca/gprof2dot?tab=readme-ov-file) - This is a Python script to convert the output from many profilers into a [dot graph](https://www.graphviz.org/doc/info/lang.html).
